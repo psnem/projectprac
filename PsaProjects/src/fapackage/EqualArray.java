@@ -16,6 +16,8 @@ public class EqualArray {
 		}
 		else
 			System.out.println("Arrays are not equal");
+		
+		
 		int count=0;
 		if (a.length==b.length) {
 			

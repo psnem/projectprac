@@ -15,8 +15,10 @@ public class LargestTernaryOperator {
 		b=sc.nextInt();
 		System.out.println("Enter the value of c");
 		c=sc.nextInt();
+		
 		int largest=(a>b)?a:b;
 		largest=largest>c?largest:c;
+		
 		System.out.println(largest);
 
 	}
