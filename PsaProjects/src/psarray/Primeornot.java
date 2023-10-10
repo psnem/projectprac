@@ -20,7 +20,7 @@ public class Primeornot {
 				flag++;
 
 		}
-		System.out.println(flag);
+	//	System.out.println(flag);
 		if (flag == 2)
 			System.out.println("Prime");
 		else
