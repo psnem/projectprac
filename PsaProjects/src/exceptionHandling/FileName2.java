@@ -24,6 +24,7 @@ public class FileName2 {
 		}
 		
 		System.out.println(name+" is created");
+		
 	}
 
 }
