@@ -9,7 +9,8 @@ public class FileInfo {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the name of the file");
 		String fname=sc.next();
-		File f=new File("D://"+fname+".txt");
+		File f=new File("D://FileConcept//"+fname+".txt");
+		File f1=new File("D://FileConcept//Piyush.txt");
 		if(f.exists())
 		{
 			System.out.println("Name of the file is : "+f.getName());
@@ -22,6 +23,7 @@ public class FileInfo {
 		}
 		else
 			System.out.println("File does not exist");
+	System.out.println(f.renameTo(f1));
 	}
 
 }

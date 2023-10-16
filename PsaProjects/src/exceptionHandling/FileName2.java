@@ -15,6 +15,7 @@ public class FileName2 {
 	//	String name2="D://"+name+".txt";
 		//System.out.println(name2);
 		File f=new File("D://"+name+".txt");
+		System.out.println(name.isFile());
 		
 		try {
 			f.createNewFile();
