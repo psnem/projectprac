@@ -1,27 +1,22 @@
 package Revision;
 
 import java.util.Scanner;
-
-class RevisionPage {
-	public static void main(String[] args) {
-		System.out.println("Enter the number");
-		Scanner sc = new Scanner(System.in);
-		int num = sc.nextInt();
-		if (num < 2) {
-			System.out.println("Not prime");
-			System.exit(0);
+class RevisionPage implements Runnable{
+	public void run() {
+		try {
+			Thread.sleep(100);
+		} catch (Exception e) {
+			// TODO: handle exception
 		}
-		int count = 0;
-		for (int i = 2; i <= num; i++) {
-			if (num % i == 0) {
-				count++;
-			}
-		}
-		if(count==1)
-			System.out.println("Prime");
-		else
-			System.out.println("Not Prime");
+		System.out.println("Will show state");
 
+		System.out.println("Before sleep"+RevPage.th.getState());
+		try {
+			Thread.sleep(100);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+
+		System.out.println("After sleep"+RevPage.th.getState());
 	}
-
 }
