@@ -14,5 +14,6 @@ public class BoyFriend {
 		BoyFriend bf=new BoyFriend("Siddarth", gf);
 		System.out.println(bf.bname);
 		System.out.println(gf.gname);
+		
 	}
 }
