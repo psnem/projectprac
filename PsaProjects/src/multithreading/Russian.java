@@ -6,7 +6,7 @@ public class Russian extends Thread {
 	{
 		for(int i=0;i<20;i++) {
 
-			System.out.println("Russian Le lo");
+			System.out.println("BigBillionDay");
 			try {
 				sleep(8000);
 			} catch (InterruptedException e) {
