@@ -8,7 +8,7 @@ public class Russian extends Thread {
 
 			System.out.println("BigBillionDay");
 			try {
-				sleep(8000);
+				sleep(10000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

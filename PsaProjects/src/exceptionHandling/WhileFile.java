@@ -55,7 +55,7 @@ public class WhileFile {
 			File f = new File("D://FileConcept//" + name + ".txt");
 			System.out.println(f.createNewFile());
 		} catch (Exception e) {
-			System.out.println(e);
+			//System.out.println(e);
 		}
 	}
 
