@@ -10,7 +10,7 @@ public static void main(String[] args) {
 	catch(Exception e)
 	{
 		System.out.println(e);
-		e.getStackTrace();
+		e.printStackTrace();
 	}
 
 }}
